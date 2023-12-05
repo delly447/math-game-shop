@@ -1,6 +1,3 @@
-Certainly! I've added comments to your code to explain various sections. Note that comments are often most useful when explaining why something is done, rather than what it does (the code itself should be clear in that regard). Also, remember to keep comments up-to-date as you make changes to the code.
-
-```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,8 +20,8 @@ public class MomoPay : MonoBehaviour
     private const string alphanumericChars = "abcdefghijklmnopqrstuvwxyz0123456789";
 
     // Paystack API keys
-    public string publicKey = "pk_live_fe2c3029e063aa5fbb54cf101a975bea7bd3f1b4";
-    public string secretKey = "sk_live_61bdfd4511bc4a7dd315f30adc80754f2aef48c2";
+    public string publicKey = "pk_live_fe2c3029e*******************************";
+    public string secretKey = "sk_live_61bdfd451*******************************";
 
     // UI Elements
     public TMP_InputField MomoNumber;
